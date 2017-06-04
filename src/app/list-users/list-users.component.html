@@ -1,0 +1,6 @@
+<div id="user-{{i}}" *ngFor="let user of users; let i=index">
+  <p>{{ user.login }}</p>
+  <img [src]="user.avatar" alt="img" width="250">
+  <p>{{ user.url }}</p>
+  <p>{{ user.admin }}</p>
+</div>
